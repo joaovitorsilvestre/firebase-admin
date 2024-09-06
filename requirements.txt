@@ -6,7 +6,7 @@ pytest-localserver >= 0.4.1
 pytest-asyncio >= 0.16.0
 pytest-mock >= 3.6.1
 
-cachecontrol == 0.12.6
+cachecontrol == 0.12.14
 google-api-core[grpc] == 2.19.2; platform.python_implementation != 'PyPy'
 google-api-python-client == 1.7.8
 google-cloud-firestore == 2.9.1; platform.python_implementation != 'PyPy'
