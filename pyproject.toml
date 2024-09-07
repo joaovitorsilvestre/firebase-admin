@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "firebase-admin"
+version = "6.5.0"
+description = ""
+authors = ["joaovitorsilvestre <joao_vitor_silvestre@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cachecontrol = "0.14.0"
+google-api-core = {version = "2.19.2", extras = ["grpc"]}
+google-api-python-client = "1.7.8"
+google-cloud-firestore = "2.9.1"
+google-cloud-storage = "1.44.0"
+pyjwt = {version = "2.5.0", extras = ["crypto"]}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
