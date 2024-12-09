@@ -11,7 +11,7 @@ cachecontrol = "0.14.0"
 google-api-core = {version = "2.19.2", extras = ["grpc"]}
 google-api-python-client = "1.7.8"
 google-cloud-firestore = "2.9.1"
-google-cloud-storage = "1.44.0"
+google-cloud-storage = "2.10.0"
 pyjwt = {version = "2.5.0", extras = ["crypto"]}
 
 
